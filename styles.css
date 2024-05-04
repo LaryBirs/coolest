@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+img {
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+nav ul {
+    background-color: #7ACBDB;
+    border-style: solid;
+  border-color: #F2DC6B;
+  border-width: 2px;
+  padding: 15px;
+  font-family:"Oswald";
+}
+
+nav ul{
+  background-color:#5FCDD9;
+  border-style: solid;
+  border-color:#026773 ;
+  border-width: 5px;
+  font-family:"Oswald";
+}
+
+nav ul li {
+    list-style-type: none;
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+    font-family:"Oswald";
+
+}
+
+
+
+h5{
+ color:black;
+ font-family:"Oswald";
+}
+
+h1{
+ color:black;
+ text-align: center;
+ font-family:"Oswald";
+ 
+}
+
+
+
+
+#frontPage {
+    background: #48D1CC;
+    background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
+}
+
+
+#spongebob{
+  border-radius: 100%;
+  width: 400px;
+  animation-name:myFirstAnimation;
+  animation-duration:0s;
+  animation-iteration-count:0;
+}
+
+@keyframes myFirstAnimation{
+  from{
+    width:100px;
+  }
+  to{
+    width:400px;
+  }
+}
+
+
+#frontPage {
+background: rgb(250,250,255);
+background: linear-gradient(180deg, rgba(250,250,255,1) 0%, rgba(214,208,208,1) 100%);
+}
+
+img {
+  border: 2px solid White;
+  border-radius:10px;
+}
+img:hover {
+  border: 2px dashed Navy;
+}
+
+p{
+  color:black;
+  font-family:"Oswald"; 
+}
+
+img:hover {
+  border: 2px dashed Navy;
+}
+
+#nba {
+  border-radius: 100%;
+  width: 500px;
+}
+#nav:hover {
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  color:black;
+  
+}
+
+#a:hover {
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  color:black;
+}
+
+#b:hover{
+  color:black;
+}
+
+h4{
+ color:pink;
+ font-family:calibri;
+}
+
+#c:hover{
+  color:black;
+}
+
+
+#footer{
+  font-weight:bold;
+  color:#A985E8;
+}
+
+#champ{
+  color:black;
+ font-family:arial;
+}
+
+#history{
+  color:black;
+ font-family:georgia;
+}
+
+.img_highlight{
+  width: 100px;
+  height: 100px;
+}
+.table_highlight td{
+  width: 100px;
+  background-color: white;
+  text-align: center;
+}
+
+.vid iframe{
+  width: 100%;
+  height:300px;
+  border-radius:10px;
+}
+
+.Oswald{
+  font-family:"Oswald";
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bestplayer table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+  width:90%;
+  text-align:center;
+}
+.bestplayer tr {
+  background-color: PaleTurquoise;
+}
+.bestplayer th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+
+
